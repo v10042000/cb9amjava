@@ -13,10 +13,10 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
  
-        <sonar.host.url>http://3.90.220.79:9000</sonar.host.url>
-        <sonar.organization>10amdevops</sonar.organization>
-        <sonar.projectKey>10amdevops</sonar.projectKey>
-        <sonar.login>sqp_95a44a99af80078c09b1e2bfc53a4bbef6c2b391</sonar.login>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.organization>cb10awsdevops</sonar.organization>
+        <sonar.projectKey>cb10awsdevops_cb10</sonar.projectKey>
+        <sonar.login>abb39eb0ef3451eb892e2a6c7de38d3407d82b79</sonar.login>
        
     </properties>
 
