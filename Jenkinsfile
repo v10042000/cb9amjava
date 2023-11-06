@@ -53,12 +53,12 @@ pipeline {
         }
           stage('Stage-9 : Deployment - Deploy a Artifact devops-2.0.0-SNAPSHOT.war file to Tomcat Server') { 
             steps {
-                sh 'curl -u admin:redhat@123 -T target/**.war "http://54.89.191.171/manager/text/deploy?path=/cloudbinary&update=true"'
+                sh 'curl -u admin:redhat@123 -T target/**.war "http://34.224.216.158/manager/text/deploy?path=/cloudbinary&update=true"'
             }
         } 
           stage('Stage-10 : SmokeTest') { 
             steps {
-                sh 'curl --retry-delay 10 --retry 5 "http://54.89.191.171/cloudbinary"'
+                sh 'curl --retry-delay 10 --retry 5 "http://34.224.216.158/cloudbinary"'
             }
         }
 
